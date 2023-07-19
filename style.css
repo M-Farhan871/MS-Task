@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+}
+.primary-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 25px;
+}
+
+.primary-nav ul{
+    display: flex; 
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+.primary-nav ul li{
+    margin: 12px;
+}
+.primary-nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.primary-nav ul li a:hover{
+border-bottom: 1px solid #000;
+}
+.header-img-wraper img{
+    width: 100%;
+}
+.ms-products-wraper{
+    display: flex;
+}
+
+.product-card{
+    width: 25%;
+    margin: 12px;
+    padding: 12px;
+
+}
