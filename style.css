@@ -1,4 +1,5 @@
 body{
+    font-family: 'Lato', sans-serif;
     margin: 0%;
 }
 .primary-nav{
@@ -15,6 +16,7 @@ body{
 }
 .primary-nav ul li{
     margin: 12px;
+    
 }
 .primary-nav ul li a{
     text-decoration: none;
@@ -22,6 +24,9 @@ body{
 }
 .primary-nav ul li a:hover{
 border-bottom: 1px solid #000;
+}
+.primary-nav ul li img{
+    width: 100px;
 }
 .header-img-wraper img{
     width: 100%;
@@ -33,8 +38,9 @@ border-bottom: 1px solid #000;
 .product-card{
     width: 25%;
     margin: 12px;
+    margin-left: 50px;
     padding: 12px;
-
+    margin-top: 100px;
 } 
 .product-card img{width: 100%;}
 
@@ -92,4 +98,59 @@ transform: translateY(-50%);
     width: 25%;
     margin: 2px;
     padding: 10px;
+    margin-left: 50px;
+}
+.bottom-links{
+    display: flex;
+}
+.footer{
+    background-color: #f2f2f2;
+
+}
+
+.bottom-links ul{
+    
+    list-style-type: none;
+ }
+ .bottom-links ul li{
+    margin: 12px;
+ }
+ .bottom-links ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    line-height: 16px;
+ }
+ .bottom-links ul li a:hover{
+    border-bottom: 1px solid black;
+ }
+ .bottom-links ul h5{
+     display: flex;
+     align-items: center;
+ }    
+ .social-connections{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.main-links{
+    display: flex;
+}
+.main-links ul{
+    display: flex; 
+   list-style-type: none;
+}
+.main-links ul h5{
+    display: flex;
+}
+.main-links ul li {
+    display: flex;
+   margin: 10px;
+}
+.main-links ul li a{
+   text-decoration: none;
+   color: black;
+}
+.main-links ul li a span img{
+    width: 30px;
 }
